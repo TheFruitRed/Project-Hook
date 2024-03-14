@@ -208,7 +208,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10510caee64778c409c18f681562daeb, type: 3}
---- !u!1001 &473810098
+--- !u!1001 &596820645
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -748,22 +748,6 @@ PrefabInstance:
       propertyPath: m_Mass
       value: 23.0321
       objectReference: {fileID: 0}
-    - target: {fileID: 4539154688835919488, guid: be969a8d4317b144d9eea7f35964f2d2, type: 3}
-      propertyPath: m_LocalBounds.m_Center.x
-      value: 0.49845004
-      objectReference: {fileID: 0}
-    - target: {fileID: 4539154688835919488, guid: be969a8d4317b144d9eea7f35964f2d2, type: 3}
-      propertyPath: m_LocalBounds.m_Center.y
-      value: -1.75755
-      objectReference: {fileID: 0}
-    - target: {fileID: 4539154688835919488, guid: be969a8d4317b144d9eea7f35964f2d2, type: 3}
-      propertyPath: m_LocalBounds.m_Extent.x
-      value: 7.50595
-      objectReference: {fileID: 0}
-    - target: {fileID: 4539154688835919488, guid: be969a8d4317b144d9eea7f35964f2d2, type: 3}
-      propertyPath: m_LocalBounds.m_Extent.y
-      value: 5.24955
-      objectReference: {fileID: 0}
     - target: {fileID: 4672577529902222851, guid: be969a8d4317b144d9eea7f35964f2d2, type: 3}
       propertyPath: m_Mass
       value: 2
@@ -977,10 +961,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: -2695619058785784247, guid: be969a8d4317b144d9eea7f35964f2d2, type: 3}
---- !u!4 &473810099 stripped
+--- !u!4 &596820646 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7881895264652973722, guid: be969a8d4317b144d9eea7f35964f2d2, type: 3}
-  m_PrefabInstance: {fileID: 473810098}
+  m_PrefabInstance: {fileID: 596820645}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1091848404
 PrefabInstance:
@@ -1120,6 +1104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75d5d1e3733e467bac2ce4f1e1c797dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firstRoom: {fileID: 0}
 --- !u!4 &1652171298
 Transform:
   m_ObjectHideFlags: 0
@@ -1133,7 +1118,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 473810099}
+  - {fileID: 596820646}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
